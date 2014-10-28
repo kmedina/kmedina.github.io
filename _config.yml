@@ -1,0 +1,10 @@
+# Site settings
+title: Karla's Website
+email: kmedina@albany.edu
+description: Karla is an INF major, graduating 2015
+url: kmedina.github.io
+github_username: kmedina
+
+# Build settings
+markdown: kramdown
+permalink: pretty
