@@ -1,13 +1,13 @@
  <!-- header -->
         <header class="site-header cf">
             <div class="container">
-                <a href="#" class="site-title">{{ site.title }}</a>
+                <a href="{{site.url}}" class="site-title">{{ site.title }}</a>
                 <nav class="navbar">
                     <ul class="header-nav">
                         
                         {% for nav in site.pages %}
                            {% if nav.title %}
-                             <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{ nav.url }}">{{ nav.title }}</a></li>
+                             <li><a class="nav-link{% if nav.title == page.title %} active{% endif %}" href="{{site.url}}{ nav.url }}">{{ nav.title }}</a></li>
                            {% endif %}
                         {% endfor %}
 
